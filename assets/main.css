@@ -1,0 +1,181 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+h1 {
+    color: #003399;
+}
+
+h2 {
+    margin: 0;
+    margin-bottom: 25px;
+    font-weight: 400;
+}
+
+h2::after {
+    content: "";
+    display: inline-block;
+    width: 20px;
+    height: 8px;
+    background-color: #FF7168;
+    margin-left: 10px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.table-wrapper {
+    -webkit-overflow-scrolling: touch;
+    overflow-x: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    overflow: hidden;
+}
+
+table.alt {
+    border-collapse: separate;
+}
+
+table.alt tbody tr td {
+    border: solid 2px #efefef;
+    border-left-width: 0;
+    border-top-width: 0;
+}
+
+table.alt tbody tr td:first-child {
+    border-left-width: 2px;
+}
+
+table.alt tbody tr:first-child td {
+    border-top-width: 2px;
+}
+
+table.alt thead {
+    border-bottom: 0;
+}
+
+table.alt tfoot {
+    border-top: 0;
+}
+
+li {
+    text-align: left
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    font-size: larger;
+    padding: 2em;
+}
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.icons {
+    font-size: 60px;
+}
+
+.icons a {
+    color: gray;
+}
+
+.icons .fa-instagram:hover {
+    color: #FF359A;
+}
+
+.icons .fa-youtube:hover {
+    color: #EA0000;
+}
+
+.icons .fa-github:hover {
+    color: #272727;
+}
+
+.icons .fa-discord:hover {
+    color: #6A6AFF;
+}
+
+.icons .fa-telegram:hover {
+    color: #2894FF;
+}
+    /* list program */
+    
+    .listProgram .bar{
+      width: 150px;
+      height: 10px;
+      border: solid 2px #FF7168;
+      border-radius: 5px
+    }
+    .listProgram li{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-top: 10px;
+    }
+    .value{
+      height: 100%;
+      width: 60%;
+      background-color: #FF7168;
+    }
+    .value.p10{
+      width: 10%;
+    }
+      
+    .value.p20{
+      width: 20%;
+    }
+    .value.p30{
+      width: 30%;
+    }
+    .value.p40{
+      width: 40%;
+    }
+    .value.p50{
+      width: 50%;
+    }
+    .value.p60{
+      width: 60%;
+    }
+    .value.p70{
+      width: 70%;
+    }
+    .value.p80{
+      width: 80%;
+    }
+    .value.p90{
+      width: 90%;
+    }
+    
+    .value.p100{
+      width: 100%;
+    }
+    
+    .btn{
+      border: solid 3px #FF7168;
+      padding: 5px 20px;
+      margin-right: 10px;
+    }
+    .fill{
+      background-color: #FF7168;
+    }
